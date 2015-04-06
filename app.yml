@@ -1,0 +1,21 @@
+page:
+  title: Hello World
+  meta_description: >
+                      Software Engineer living in San Francisco.
+                      JavaScript, ES6, CoffeeScript, Backbone, AngularJS,
+                      Ruby, Ruby on Rails
+
+profile:
+  first_name: Jason
+  last_name: English
+  title: Software Engineer
+  location: San Francisco, CA
+  description: >
+                 Hello! I'm a Software Engineer living in San Francisco.
+                 I love all things programming, tech and movies. Currently
+                 helping small businesses @ <a href='http://www.hirefrederick.com/' target='_blank'>
+                 Frederick</a>.
+  links:
+    github: https://github.com/jasonenglish
+    twitter: https://twitter.com/jnenglish
+    linkedin: https://www.linkedin.com/in/jasonnenglish
