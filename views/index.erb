@@ -1,18 +1,60 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title><%= "#{@profile['first_name']} #{@profile['last_name']}" %></title>
-    <meta name="Description" content="<%= @page['meta_description'] %>">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="Description" content="Software Engineer living in San Francisco.
+    JavaScript, ES6, CoffeeScript, Backbone, AngularJS, Ruby, Ruby on Rails">
+  <title>Jason English</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+  <link href="css/jsonenglishcom.css" rel="stylesheet">
 </head>
 <body>
 
-<%= @profile['description'] %>
+<div class="site-wrapper">
+  <div class="site-wrapper-inner">
+    <div class="cover-container">
+      <div class="cover">
+        <div class="row">
+            <div class="col-sm-3 col-avatar">
+              <div class="avatar-wrapper"><div class="avatar"></div></div>
+            </div>
+            <div class="col-sm-9 col-body">
+              <h1 class="cover-heading">Hello, my name is Jason English</h1>
+              <p class="cover-body">
+                I'm a Software Engineer living in San Francisco.
+                I love all things space, tech and movies. Currently
+                helping small businesses at <a href='http://www.hirefrederick.com/' target='_blank'> Frederick</a>.
+              </p>
+              <ul class="social-links">
+                <li class="social-link">
+                  <a href="https://github.com/jasonenglish" target="_blank">
+                    <span class="fa fa-github"></span>
+                  </a>
+                </li>
+                <li class="social-link">
+                  <a href="https://twitter.com/jnenglish" target="_blank">
+                    <span class="fa fa-twitter"></span>
+                  </a>
+                </li>
+                <li class="social-link">
+                  <a href="https://www.linkedin.com/in/jasonnenglish" target="_blank">
+                    <span class="fa fa-linkedin-square"></span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-<ul>
-  <% @profile['links'].each do |service, link| %>
-    <li><a href="<%= link %>"><%= service.capitalize %></a></li>
-  <% end %>
-</ul>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
 </body>
 </html>
